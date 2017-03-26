@@ -4,20 +4,60 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:300" rel="stylesheet">
 	<link rel="stylesheet" href="ccc.css">
 	<link rel="stylesheet" href="crescendo/crescendo.css">
 
 	<title>Community Code Challenge</title>
 </head>
 <body>
-	<div class="jumbo true-center splash">
-		<p><span class="c">C</span>ommunity <span class="c">C</span>oding <span class="c">C</span>hallenge</p>
 
-		<p>Hacking starts June 16th</p>
+	<nav class="nav">
+		<div class="nav-container">
+				<img src="#" alt="" class>
 
-		<input type="button" class="btn signup-btn" value="SIGN UP">
-	</div>
+				<div class="nav-links">
+					<ul>
+						<li><a href="#general-container">Info</a></li>
+						<li><a href="#events-container">Schedule</a></li>
+						<li><a href="#judges-container">Judges</a></li>
+						<li><a href="#tutorials-container">Tutorials</a></li>
+						<li><a href="#faqs-container">Faqs</a></li>
+						<li><a href="#sponsors-container">Sponsors</a></li>
+					</ul>
+				</div>
+
+				<img src="images/menu.png" alt="" class="menu-icon" onclick="menuDrop()">
+				<img src="images/close.png" alt="" class="close-icon" onclick="menuClose()">
+			</div>
+
+			<div class="dropdown">
+				<ul>
+					<li><a href="#general-container">Info</a></li>
+					<li><a href="#events-container">Schedule</a></li>
+					<li><a href="#judges-container">Judges</a></li>
+					<li><a href="#tutorials-container">Tutorials</a></li>
+					<li><a href="#faqs-container">Faqs</a></li>
+					<li><a href="#sponsors-container">Sponsors</a></li>
+					</ul>
+			</div>
+		</nav>
+
+		<div class="jumbo true-center splash">
+			<div class="title">
+			   <div>
+			      <p class="c">C</p>
+			   </div>
+
+			   <div>
+			      <p class="afterc">ommunity<br>oding<br>hallenge</p>
+			   </div>
+			</div>
+
+			<span class="date">Hacking starts June 16th</span>
+
+			<button class="btn signup-btn">SIGN UP</button>
+		</div>
 
 	<div id="general-container">
 		<div class="grid-fw">
@@ -92,47 +132,50 @@
 	</div> <!-- ends event-container -->
 
 	<div id="judges-container">
-		<div class="grid-fw">
-			<div class="row">
-				<div class="cols-12 judges">
-					<h1>Judges</h1>
+			<div class="grid-fw">
+				<div class="row">
+					<div class="cols-12 center">
+						<h1>Judges</h1>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cols-12 colm-6 center">
+						<img class="judge circle" src="images/filler.jpg">
+					</div>
+
+					<div class="cols-12 colm-6 true-center card">
+						<h3>TBD</h3>
+						<hr>
+						<p>title</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cols-12 colm-6 center">
+						<img class="judge circle" src="images/filler.jpg">
+					</div>
+
+					<div class="cols-12 colm-6 true-center card">
+						<h3>TBD</h3>
+						<hr>
+						<p>title</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cols-12 colm-6 center">
+						<img class="judge circle" src="images/filler.jpg">
+					</div>
+
+					<div class="cols-12 colm-6 true-center card">
+						<h3>TBD</h3>
+						<hr>
+						<p>title</p>
+					</div>
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="cols-12 colm-6 center">
-					<img class="judge circle" src="images/filler.jpg">
-				</div>
-
-				<div class="cols-12 colm-6 just-center">
-					<h3>Blaca Polo</h3>
-					<p>LeewardCC and UHM Computer Science Faculty</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="cols-12 colm-6 center">
-					<img class="judge circle" src="images/filler.jpg">
-				</div>
-
-				<div class="cols-12 colm-6 just-center">
-					<h3>Blaca Polo</h3>
-					<p>LeewardCC and UHM Computer Science Faculty</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="cols-12 colm-6 center">
-					<img class="judge circle" src="images/filler.jpg">
-				</div>
-
-				<div class="cols-12 colm-6 just-center">
-					<h3>Blaca Polo</h3>
-					<p>LeewardCC and UHM Computer Science Faculty</p>
-				</div>
-			</div>
-		</div>
-	</div> <!-- ends judges-container -->
+		</div> <!-- ends judges-container -->
 
 	<div id="tutorials-container">
 		<div class="grid-fw">
