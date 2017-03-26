@@ -16,12 +16,12 @@ p {
 }
 
 
-/* 
+/*
 -------------------------------------- splash
 */
 .splash {
 	background-color: #5bc3eb;
-	min-height: 100%; 
+	min-height: 100%;
 }
 
 .c {
@@ -44,6 +44,14 @@ p {
 	margin-left: 20px;
 }
 
+
+/*
+---------------------------------- general
+*/
+
+.gen div{
+	padding: 20px 0; 
+}
 
 /*
 ---------------------------------- faqs
@@ -72,5 +80,5 @@ p {
 
 .judge {
 	height: 250px;
-	border: 2px #000000 solid; 
+	border: 2px #000000 solid;
 }
