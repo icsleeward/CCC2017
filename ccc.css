@@ -49,12 +49,8 @@ p {
 ---------------------------------- general
 */
 
-.gen{
-	background-color: #b24c63;
-}
-
 .gen div{
-	padding: 20px 0;
+	padding: 20px 0; 
 }
 
 /*
@@ -69,13 +65,6 @@ p {
 	text-align: center;
 }
 
-#faqs-container p{
-	display: none;
-}
-
-#faqs-container h4{
-	cursor: pointer;
-}
 
 /*
 ----------------------------------- judges
