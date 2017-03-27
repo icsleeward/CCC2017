@@ -14,4 +14,9 @@ $(document).ready(function(){
     $("#different").click(function(){
         $("#different-ans").toggle();
     });
+    $("#participate").click(function(){
+        $("#participate-ans").toggle();
+        $("#participate-ans-2").toggle();
+        $("#participate-ans-3").toggle();
+    });
 });
