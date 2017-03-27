@@ -183,6 +183,12 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 
 #faqs-container h4 {
 	cursor: pointer;
+	text-decoration: underline;
+}
+
+#faqs-container h4:hover {
+	text-decoration: none;
+	text-shadow: text-shadow: 1px 1px 1px #555;
 }
 
 #faqs-container p {
