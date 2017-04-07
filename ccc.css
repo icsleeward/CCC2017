@@ -13,37 +13,30 @@ body, html {
 
 p {
 	font-size: 1.6rem;
-	line-height: 1.3;
 }
 
 /*
 -------------------------------------- nav
 */
-.ccc-logo {
-	height: 50px;
-	width: 50px;
-}
+
 
 .nav {
 	position: fixed;
 	background-color: rgba(93,115,126,.9);
 }
 
-.nav-links {
-	padding: 1.3rem 0;
-}
-
-.nav li {
-	padding: 1.3rem;
-}
-
 .nav a {
+	padding: 0 1.3rem;
 	color:  #cccccc;
 	font-size: 1.5rem;
 	font-family: 'Roboto Slab', serif;
 }
 
-.menu-icon, .close-icon, .logo {
+.ccc-logo {
+	height: 5rem;
+}
+
+.menu-icon, .close-icon {
 	height: 5rem;
 	margin: 0 15px;
 }
