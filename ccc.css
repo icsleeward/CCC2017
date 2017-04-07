@@ -1,5 +1,5 @@
 /* Stylesheet for the Community Code Challenge site
-author: Dustin Clark 2017
+author: Dustin Clark & Steve Lorenz 2017
 */
 
 /*
@@ -8,20 +8,20 @@ author: Dustin Clark 2017
 
 body, html {
 	height: 100%;
-	line-height: 1.3;
 	font-family: 'PT Sans', sans-serif;
 }
 
 p {
 	font-size: 1.6rem;
+	line-height: 1.3;
 }
 
 /*
 -------------------------------------- nav
 */
 .ccc-logo {
-	height: 80px;
-	width: 80px;
+	height: 50px;
+	width: 50px;
 }
 
 .nav {
@@ -39,7 +39,7 @@ p {
 
 .nav a {
 	color:  #cccccc;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-family: 'Roboto Slab', serif;
 }
 
