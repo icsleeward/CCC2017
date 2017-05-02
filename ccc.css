@@ -210,6 +210,12 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 	background-color: #44a8d6;
 }
 
+.sponsor {
+	height: 250px;
+	width: 350px;
+	box-shadow: 0 3px 5px #000000;
+	background-color: #000000;
+}
 
 /*
 -------------------------------- media queries
