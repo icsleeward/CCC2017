@@ -20,11 +20,12 @@ p {
 */
 
 
-.nav-fixed {
+.nav {
+	position: fixed;
 	background-color: rgba(93,115,126,.9);
 }
 
-.nav-fixed a {
+.nav a {
 	padding: 0 1.3rem;
 	color:  #cccccc;
 	font-size: 1.5rem;
@@ -67,7 +68,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: right;
+	align-items: right:
 	}
 
 .title div:nth-child(2) {
@@ -92,8 +93,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 /*
 ---------------------------------- general
 */
-#general {
-	background-color: #efefef;
+#general-container {
+	padding: 50px 0;
+	background-color: #b24c63;
 }
 
 .gen div{
@@ -108,30 +110,31 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 /*
 ---------------------------------- event schedule
 */
-#events {
-	background-color: #b24c63;
+#events-container {
+	padding: 50px 0;
+	background-color: #cccccc;
 }
 
 .itinerary p {
 	margin-left: 40px;
-	font-size: 2rem;
 }
 
 
 /*
 ----------------------------------- judges
 */
-#judges {
+#judges-container {
+	padding: 50px 0;
 	background-color: #2e4559;
 }
 
-#judges h1 {
-	color: #efefef;
+#judges-container h1 {
+	color: #cccccc;
 }
 
 .judge {
-	height: 250px;
-	width: 250px;
+	height: 300px;
+	width: 300px;
 	box-shadow: 0 3px 5px #000000;
 	background-color: #000000;
 }
@@ -153,12 +156,13 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 /*
 ---------------------------------- tutorials
 */
-#tutorials{
-	background-color: #efefef;
+#tutorials-container {
+	padding: 50px 0;
+	background-color: #cccccc;
 }
 
-#tutorials li, #tutorials p{
-	font-size: 2rem;
+#tutorials-container li{
+	font-size: 1.6rem;
 	margin-left: 40px;
 	list-style-type: square;
 }
@@ -167,29 +171,31 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 /*
 ---------------------------------- faqs
 */
-#faqs{
+#faqs-container {
+	padding: 50px 0;
 	background-color: #b24c63;
 }
 
-#faqs h4 {
+#faqs-container h4 {
 	cursor: pointer;
 	text-decoration: underline;
 }
 
-#faqs h4:hover {
+#faqs-container h4:hover {
 	text-decoration: none;
+	text-shadow: text-shadow: 1px 1px 1px #555;
 }
 
-#faqs p {
+#faqs-container p {
 	display: none;
 	color: #cccccc;
 }
 
-#faqs li{
+#faqs-container li{
 	font-size: 1.6rem;
 	margin-left: 40px;
 	list-style-type: square;
-	color: #cccccc;
+		color: #cccccc;
 }
 
 #participate-ans{
@@ -240,6 +246,3 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 @media (min-width: 1200px) {
 
 }
-
-
-

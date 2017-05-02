@@ -6,24 +6,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:300" rel="stylesheet">
 	<link rel="stylesheet" href="ccc.css">
-	<link rel="stylesheet" href="https://rawcdn.githack.com/pixelgalaxies/crescendo/70a899c/crescendo.css">
+	<link rel="stylesheet" href="https://rawcdn.githack.com/pixelgalaxies/crescendo/master/crescendo.css">
 
 	<title>Community Code Challenge</title>
 </head>
 <body>
 
-	<nav class="nav-fixed">
-		<div class="nav-container-fw">
+	<nav class="nav">
+		<div class="nav-container">
 				<a href="#splash"><img src="images/ccc-logo.svg" alt="" class="ccc-logo"></a>
 
 				<div class="nav-links">
 					<ul>
-						<li><a href="#general">Info</a></li>
-						<li><a href="#events">Schedule</a></li>
-						<li><a href="#judges">Judges</a></li>
-						<li><a href="#tutorials">Tutorials</a></li>
-						<li><a href="#faqs">Faqs</a></li>
-						<li><a href="#sponsors">Sponsors</a></li>
+						<li><a href="#general-container">Info</a></li>
+						<li><a href="#events-container">Schedule</a></li>
+						<li><a href="#judges-container">Judges</a></li>
+						<li><a href="#tutorials-container">Tutorials</a></li>
+						<li><a href="#faqs-container">Faqs</a></li>
+						<li><a href="#sponsors-container">Sponsors</a></li>
 					</ul>
 				</div>
 
@@ -33,12 +33,12 @@
 
 			<div class="dropdown">
 				<ul>
-					<li><a href="#general" onclick="menuClose()">Info</a></li>
-					<li><a href="#events" onclick="menuClose()">Schedule</a></li>
-					<li><a href="#judges" onclick="menuClose()">Judges</a></li>
-					<li><a href="#tutorials" onclick="menuClose()">Tutorials</a></li>
-					<li><a href="#faqs" onclick="menuClose()">Faqs</a></li>
-					<li><a href="#sponsors" onclick="menuClose()">Sponsors</a></li>
+					<li><a href="#general-container" onclick="menuClose()">Info</a></li>
+					<li><a href="#events-container" onclick="menuClose()">Schedule</a></li>
+					<li><a href="#judges-container" onclick="menuClose()">Judges</a></li>
+					<li><a href="#tutorials-container" onclick="menuClose()">Tutorials</a></li>
+					<li><a href="#faqs-container" onclick="menuClose()">Faqs</a></li>
+					<li><a href="#sponsors-container" onclick="menuClose()">Sponsors</a></li>
 					</ul>
 			</div>
 		</nav>
@@ -50,7 +50,7 @@
 			   </div>
 
 			   <div>
-					<p class="afterc">ommunity<br>oding<br>hallenge</p>
+			      <p class="afterc">ommunity<br>oding<br>hallenge</p>
 			   </div>
 			</div>
 
@@ -59,7 +59,7 @@
 			<a href="https://www.eventbrite.com/e/community-coding-challenge-2017-tickets-33182828734"><button class="btn signup-btn">SIGN UP</button></a>
 		</div>
 
-	<div id="general" class="grid-container">
+	<div id="general-container">
 		<div class="grid-fw">
 			<div class="row">
 				<div class="cols-12 center">
@@ -69,7 +69,7 @@
 			<div class="row">
 				<div class="cols-12">
 					<h4>What is the CCC?</h4>
-					<p>The Community Coding Challenge is an event where students will collaborate and build applications in a sprint-like competition. The challenge is designed around the idea of "community" and bringing developers, designers, and all innovators together. Contestants will gain real-world skills while enjoying building their projects. The event was designed for students, by students, and should continue through students.</p>
+					<p>It is an event where students will collaborate and build applications in a sprint-like competition. The challenge is designed around the idea of "community" and bringing developers, designers, and all innovators together. Contestants will gain real-world skills while enjoying building their projects. The event was designed for students, by students, and should continue through students.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -87,9 +87,9 @@
 				<div class="cols-12 colm-6 map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.938403166998!2d-157.981792650088!3d21.392329885732764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00667598af005b%3A0xb28269fa9f1b16c0!2sLeeward+Community+College%2C+Pearl+City%2C+HI+96782!5e0!3m2!1sen!2sus!4v1490499055120" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 			</div>
 		</div>
-	</div><!-- ends general -->
+	</div><!--Ends general-container -->
 
-	<div id="events" class="grid-container">
+	<div id="events-container">
 		<div class="grid-fw">
 			<div class="row">
 				<div class="cols-12 center">
@@ -127,9 +127,9 @@
 				</div>
 			</div>
 		</div>
-	</div> <!-- ends event -->
+	</div> <!-- ends event-container -->
 
-	<div id="judges" class="grid-container">
+	<div id="judges-container">
 			<div class="grid-fw">
 				<div class="row">
 					<div class="cols-12 center">
@@ -178,25 +178,10 @@
 						</p>
 					</div>
 				</div>
-				
-				<div class="row">
-					<div class="cols-12 colm-6 center">
-						<img class="judge circle" src="images/manoa-logo.jpg">
-					</div>
-
-					<div class="cols-12 colm-6 true-center card">
-						<h3>A. Kuulei Serna, Ph.D.</h3>
-						<hr>
-						<p>Associate Professor<br>
-							University of Hawaii - Manoa<br>
-							ITE EECE Program
-						</p>
-					</div>
-				</div>
 			</div>
-		</div> <!-- ends judges -->
+		</div> <!-- ends judges-container -->
 
-	<div id="tutorials" class="grid-container">
+	<div id="tutorials-container">
 		<div class="grid-fw">
 			<div class="row">
 				<div class="cols-12">
@@ -259,9 +244,9 @@
 			</div>
 
 		</div>
-	</div> <!-- ends tutorials -->
+	</div> <!-- ends tutorials-container -->
 
-	<div id="faqs" class="grid-container">
+	<div id="faqs-container">
 		<div class="grid-fw">
 			<div class="row">
 				<div class="cols-12 faqs center">
@@ -323,14 +308,16 @@
 						</div>
 				</div>
 			</div>
-	</div> <!-- ends faqs -->
+
+		</div>
+	</div> <!-- ends faqs-container -->
 
 	<div id="sponsors-container">
 		<div class="grid-fw">
 			<div class="row">
 				<div class="cols-12 center">
 					<h1>Sponsors</h1>
-					<p>CCC '17 was brought to you by</p>
+				<p>CCC '17 was brought to you by</p>
 				</div>
 			</div>
 			<div class="row">
@@ -350,8 +337,8 @@
 				<div class="cols-12 colm-4"></div>
 			</div>
 		</div>
-	</div> <!-- ends sponsors -->
-<script src="https://rawcdn.githack.com/pixelgalaxies/crescendo/5051062/crescendo.js" type="text/javascript"></script>
+	</div> <!-- ends sponsors-container -->
+<script src="https://rawcdn.githack.com/pixelgalaxies/crescendo/master/crescendo.js" type="text/javascript"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="functions.js" type="text/javascript"></script>
 </body>
