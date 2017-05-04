@@ -201,8 +201,12 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 --------------------------------- sponsors
 */
 #sponsors {
-	padding: 50px 0;
 	background-color: #44a8d6;
+}
+
+.spon-logo {
+	height: 200px;
+	width: 400px;
 }
 
 
@@ -228,8 +232,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 	}
 
 	.title .afterc {
-			font-size: 5.5rem;
-		}
+		font-size: 5.5rem;
+	}
 }
 
 @media (min-width: 1200px) {
