@@ -15,6 +15,7 @@ p {
 	font-size: 1.6rem;
 }
 
+
 /*
 -------------------------------------- nav
 */
@@ -97,8 +98,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 	background-color: #efefef;
 }
 
-.gen div{
-	padding: 20px 0;
+.slack {
+	font-size: 1.6rem;
+	color: #b24c63;
+	text-decoration: underline;
 }
 
 .map {
@@ -135,6 +138,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 	width: 250px;
 	box-shadow: 0 3px 5px #000000;
 	background-color: #000000;
+	cursor: pointer;
+}
+
+.judge:hover {
+	box-shadow: 4px 4px 40px #efefef;
 }
 
 .card {
@@ -207,6 +215,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 .spon-logo {
 	height: 200px;
 	width: 400px;
+}
+
+#thanks h4 {
+	margin: 10px 0;
 }
 
 
