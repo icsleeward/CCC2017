@@ -14,50 +14,50 @@
 
 	<nav class="nav-fixed">
 		<div class="nav-container">
-				<a href="#splash"><img src="images/ccc-logo.svg" alt="" class="ccc-logo"></a>
+			<a href="#splash"><img src="images/ccc-logo.svg" alt="" class="ccc-logo"></a>
 
-				<div class="nav-links">
-					<ul>
-						<li><a href="#general">Info</a></li>
-						<li><a href="#events">Schedule</a></li>
-						<li><a href="#judges">Judges</a></li>
-						<li><a href="#tutorials">Tutorials</a></li>
-						<li><a href="#faqs">Faqs</a></li>
-						<li><a href="#sponsors">Sponsors</a></li>
-					</ul>
-				</div>
-
-				<img src="images/menu.svg" alt="" class="menu-icon" onclick="menuDrop()">
-				<img src="images/close.svg" alt="" class="close-icon" onclick="menuClose()">
-			</div>
-
-			<div class="dropdown">
+			<div class="nav-links">
 				<ul>
-					<li><a href="#general" onclick="menuClose()">Info</a></li>
-					<li><a href="#events" onclick="menuClose()">Schedule</a></li>
-					<li><a href="#judges" onclick="menuClose()">Judges</a></li>
-					<li><a href="#tutorials" onclick="menuClose()">Tutorials</a></li>
-					<li><a href="#faqs" onclick="menuClose()">Faqs</a></li>
-					<li><a href="#sponsors" onclick="menuClose()">Sponsors</a></li>
-					</ul>
+					<li><a href="#general">Info</a></li>
+					<li><a href="#events">Schedule</a></li>
+					<li><a href="#judges">Judges</a></li>
+					<li><a href="#tutorials">Tutorials</a></li>
+					<li><a href="#faqs">Faqs</a></li>
+					<li><a href="#sponsors">Sponsors</a></li>
+				</ul>
 			</div>
-		</nav>
+
+			<img src="images/menu.svg" alt="" class="menu-icon" onclick="menuDrop()">
+			<img src="images/close.svg" alt="" class="close-icon" onclick="menuClose()">
+		</div>
+
+		<div class="dropdown">
+			<ul>
+				<li><a href="#general" onclick="menuClose()">Info</a></li>
+				<li><a href="#events" onclick="menuClose()">Schedule</a></li>
+				<li><a href="#judges" onclick="menuClose()">Judges</a></li>
+				<li><a href="#tutorials" onclick="menuClose()">Tutorials</a></li>
+				<li><a href="#faqs" onclick="menuClose()">Faqs</a></li>
+				<li><a href="#sponsors" onclick="menuClose()">Sponsors</a></li>
+			</ul>
+		</div>
+	</nav>
 
 	<div class="jumbo true-center splash" id="splash">
-			<div class="title">
-			   <div>
-			      <p class="c">C</p>
-			   </div>
-
-			   <div>
-					<p class="afterc">ommunity<br>oding<br>hallenge</p>
-			   </div>
+		<div class="title">
+			<div>
+				<p class="c">C</p>
 			</div>
 
-			<span class="date">Hacking starts June 16th</span>
-
-			<a href="https://www.eventbrite.com/e/community-coding-challenge-2017-tickets-33182828734"><button class="btn signup-btn">SIGN UP</button></a>
+			<div>
+				<p class="afterc">ommunity<br>oding<br>hallenge</p>
+			</div>
 		</div>
+
+		<span class="date">Hacking starts June 16th</span>
+
+		<a href="https://www.eventbrite.com/e/community-coding-challenge-2017-tickets-33182828734"><button class="btn signup-btn">SIGN UP</button></a>
+	</div>
 
 	<div id="general" class="grid-container">
 		<div class="grid-fw">
@@ -77,10 +77,14 @@
 					<h4>Event & Tutorials</h4>
 					<p>Room: AD-223B - Student Lounge</p>
 					<hr>
-					<p>Join our Slack <a class="slack" href="https://ccc2017team.slack.com/signup">team.</a></p> 
+					<p>Join our Slack <a class="slack" href="https://ccc2017team.slack.com/signup">team.</a></p>
 				</div>
-				
-				<div class="cols-12 colm-6 map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.938403166998!2d-157.981792650088!3d21.392329885732764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00667598af005b%3A0xb28269fa9f1b16c0!2sLeeward+Community+College%2C+Pearl+City%2C+HI+96782!5e0!3m2!1sen!2sus!4v1490499055120" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+				<style>
+    .scrolloff {
+        pointer-events: none;
+    }
+</style>
+				<div class="cols-12 colm-6 map" id="gmap-holder"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.938403166998!2d-157.981792650088!3d21.392329885732764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00667598af005b%3A0xb28269fa9f1b16c0!2sLeeward+Community+College%2C+Pearl+City%2C+HI+96782!5e0!3m2!1sen!2sus!4v1490499055120"  height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 			</div>
 		</div>
 	</div><!-- ends general -->
@@ -126,71 +130,71 @@
 	</div> <!-- ends event -->
 
 	<div id="judges" class="grid-container">
-			<div class="grid-fw">
-				<div class="row">
-					<div class="cols-12 center">
-						<h1>Judges</h1>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="cols-12 colm-6 center">
-						<a href="http://www.oha.org/"><img class="judge circle" src="images/oha_logo.jpg"></a>
-					</div>
-
-					<div class="cols-12 colm-6 true-center card">
-						<h3>Tiger Li</h3>
-						<hr>
-						<p>ISRM Manager<br>
-							 Office of Hawaiian Affairs
-						</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="cols-12 colm-6 center">
-						<a href="https://www.kapiolani.hawaii.edu/"><img class="judge circle" src="images/kapiolani-cc-logo.jpg"></a>
-					</div>
-
-					<div class="cols-12 colm-6 true-center card">
-						<h3>Nāwaʻa Napoleon</h3>
-						<hr>
-						<p>Dean of Arts & Sciences<br>
-							Kapiolani Community College
-						</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="cols-12 colm-6 center">
-						<a href="http://www.datahouse.com/"><img class="judge circle" src="images/dh-logo.png"></a>
-					</div>
-
-					<div class="cols-12 colm-6 true-center card">
-						<h3>Aaron Kagawa</h3>
-						<hr>
-						<p>VP of Product and Technology<br>
-							DataHouse
-						</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="cols-12 colm-6 center">
-						<a href="https://manoa.hawaii.edu/"><img class="judge circle" src="images/manoa-logo.jpg"></a>
-					</div>
-
-					<div class="cols-12 colm-6 true-center card">
-						<h3>A. Kuulei Serna, Ph.D.</h3>
-						<hr>
-						<p>Associate Professor<br>
-							University of Hawaii - Manoa<br>
-							ITE EECE Program
-						</p>
-					</div>
+		<div class="grid-fw">
+			<div class="row">
+				<div class="cols-12 center">
+					<h1>Judges</h1>
 				</div>
 			</div>
-		</div> <!-- ends judges -->
+
+			<div class="row">
+				<div class="cols-12 colm-6 center">
+					<a href="http://www.oha.org/"><img class="judge circle" src="images/oha_logo.jpg"></a>
+				</div>
+
+				<div class="cols-12 colm-6 true-center card">
+					<h3>Tiger Li</h3>
+					<hr>
+					<p>ISRM Manager<br>
+						Office of Hawaiian Affairs
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cols-12 colm-6 center">
+					<a href="https://www.kapiolani.hawaii.edu/"><img class="judge circle" src="images/kapiolani-cc-logo.jpg"></a>
+				</div>
+
+				<div class="cols-12 colm-6 true-center card">
+					<h3>Nāwaʻa Napoleon</h3>
+					<hr>
+					<p>Dean of Arts & Sciences<br>
+						Kapiolani Community College
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cols-12 colm-6 center">
+					<a href="http://www.datahouse.com/"><img class="judge circle" src="images/dh-logo.png"></a>
+				</div>
+
+				<div class="cols-12 colm-6 true-center card">
+					<h3>Aaron Kagawa</h3>
+					<hr>
+					<p>VP of Product and Technology<br>
+						DataHouse
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cols-12 colm-6 center">
+					<a href="https://manoa.hawaii.edu/"><img class="judge circle" src="images/manoa-logo.jpg"></a>
+				</div>
+
+				<div class="cols-12 colm-6 true-center card">
+					<h3>A. Kuulei Serna, Ph.D.</h3>
+					<hr>
+					<p>Associate Professor<br>
+						University of Hawaii - Manoa<br>
+						ITE EECE Program
+					</p>
+				</div>
+			</div>
+		</div>
+	</div> <!-- ends judges -->
 
 	<div id="tutorials" class="grid-container">
 		<div class="grid-fw">
@@ -303,22 +307,22 @@
 			<div class="row">
 				<div class="cols-12">
 					<h4 id="participate">Who can participate?</h4>
-						<div id="participate-ans">
-							<p id="participate-ans-2">Any student who is attending one of the University of Hawaii Community Colleges:</p>
-								<ul>
-									<li>Hawai'i Community College</li>
-									<li>Honolulu Community College</li>
-									<li>Kauai Community College</li>
-									<li>Kapiolani Community College </li>
-									<li>Leeward Community College</li>
-									<li>University of Hawaii Maui College</li>
-									<li>Windward Community College</li>
-								</ul>
-							<p id="participate-ans-3">Even if you're not eligible for the competition, the CCC can always use mentors!</p>
-							</div>
-						</div>
+					<div id="participate-ans">
+						<p id="participate-ans-2">Any student who is attending one of the University of Hawaii Community Colleges:</p>
+						<ul>
+							<li>Hawai'i Community College</li>
+							<li>Honolulu Community College</li>
+							<li>Kauai Community College</li>
+							<li>Kapiolani Community College </li>
+							<li>Leeward Community College</li>
+							<li>University of Hawaii Maui College</li>
+							<li>Windward Community College</li>
+						</ul>
+						<p id="participate-ans-3">Even if you're not eligible for the competition, the CCC can always use mentors!</p>
+					</div>
 				</div>
 			</div>
+		</div>
 	</div> <!-- ends faqs -->
 
 	<div id="sponsors" class="grid-container">
@@ -339,7 +343,7 @@
 					<img src="images/SOEST-logo.jpg" class="spon-logo">
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<div class="cols-12 colm-6 center">
 					<img src="images/ccsi-logo.png" class="spon-logo">
@@ -349,7 +353,7 @@
 		</div>
 	</div> <!-- ends sponsors -->
 
-<div id="thanks" class="grid-container">
+	<div id="thanks" class="grid-container">
 		<div class="grid-fw">
 			<div class="row">
 				<div class="cols-12 center">
@@ -364,8 +368,8 @@
 			</div>
 		</div>
 	</div> <!-- ends thanks -->
-<script src="https://rawcdn.githack.com/pixelgalaxies/crescendo/5051062/crescendo.js" type="text/javascript"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="functions.js" type="text/javascript"></script>
+	<script src="https://rawcdn.githack.com/pixelgalaxies/crescendo/5051062/crescendo.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="functions.js" type="text/javascript"></script>
 </body>
 </html>
