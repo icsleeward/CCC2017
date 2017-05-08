@@ -19,6 +19,7 @@ $(document).ready(function(){
         $("#participate-ans-2").toggle();
         $("#participate-ans-3").toggle();
     });
+    $('#gmap-holder').find('iframe').css('pointer-events', 'none');
 });
 
 $(function() {
