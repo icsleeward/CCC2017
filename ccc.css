@@ -91,6 +91,16 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 	font-size: 1.6rem;
 }
 
+.signup-btn:hover {
+	background-color: #000000;
+	color: #cccccc;
+	border: none;
+	width: 18rem;
+	font-size: 1.6rem;
+	cursor: pointer;
+}
+
+
 /*
 ---------------------------------- general
 */
