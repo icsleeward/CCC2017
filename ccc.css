@@ -131,6 +131,23 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
 	font-size: 2rem;
 }
 
+.safety {
+	background-image: url(images/safe.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	color: #efefef;
+}
+
+.safety h2 {
+	font-size: 15rem
+}
+
+.safety-header p {
+	font-size: 3rem;
+	color: #efefef;
+}
+
 
 /*
 ----------------------------------- judges
